@@ -10,9 +10,11 @@
     <ul>
         <% restaurants.forEach(function(restaurant) { %>
             <li>
-                <%= restaurant.restaurant %> - <%= restaurant.done ? 'done' : 'not done' %>
+                <%= restaurant.restaurant %>
+                 - 
+                <%= restaurant.done ? 'done' : 'not done' %>
             </li>
-            <% }); %>
+        <% }); %>
     </ul>
 </body>
 </html>

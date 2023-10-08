@@ -8,5 +8,9 @@ function getAll(){
     return restaurants;
 }
 
-  module.exports = { getAll }
+  module.exports = { 
+    getAll: function() {
+      return restaurants;
+    }
+}
   
